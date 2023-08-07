@@ -72,7 +72,7 @@
                 android:layout_marginTop="12dp"
                 android:ems="10"
                 android:inputType="textPassword"
-                app:layout_constraintBottom_toTopOf="@+id/textView8"
+                app:layout_constraintBottom_toTopOf="@+id/forgotPasswordText"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.553"
                 app:layout_constraintStart_toEndOf="@+id/passwordText"
