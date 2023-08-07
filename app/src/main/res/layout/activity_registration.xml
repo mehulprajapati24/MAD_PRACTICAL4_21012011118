@@ -18,7 +18,7 @@
         android:id="@+id/materialCardView"
         android:layout_width="match_parent"
         android:layout_height="387dp"
-        android:layout_marginHorizontal="20dp"
+        android:layout_marginHorizontal="5dp"
         app:cardCornerRadius="20dp"
         app:cardElevation="20dp">
 
@@ -33,18 +33,18 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView6"
+                    android:id="@+id/userNameText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:text="User Full Name"
-                    android:textSize="20sp" />
+                    android:textSize="18sp" />
 
                 <EditText
                     android:id="@+id/userName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="40dp"
                     android:layout_marginTop="4dp"
                     android:ems="10"
                     android:inputType="textEmailAddress" />
@@ -56,18 +56,18 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView7"
+                    android:id="@+id/phoneNumberText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:text="Phone Number"
-                    android:textSize="20sp" />
+                    android:textSize="18sp" />
 
                 <EditText
                     android:id="@+id/phoneNumber"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="40dp"
                     android:layout_marginTop="4dp"
                     android:ems="10"
                     android:inputType="phone" />
@@ -79,18 +79,18 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView8"
+                    android:id="@+id/cityText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:text="City"
-                    android:textSize="20sp" />
+                    android:textSize="18sp" />
 
                 <EditText
                     android:id="@+id/city"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="130dp"
                     android:layout_marginTop="4dp"
                     android:ems="10"
                     android:inputType="textPostalAddress" />
@@ -102,18 +102,18 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView9"
+                    android:id="@+id/emailText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:text="Email"
-                    android:textSize="20sp" />
+                    android:textSize="18sp" />
 
                 <EditText
-                    android:id="@+id/editTextTextEmailAddress"
+                    android:id="@+id/email"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="115dp"
                     android:layout_marginTop="4dp"
                     android:ems="10"
                     android:inputType="textEmailAddress" />
@@ -125,18 +125,18 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView10"
+                    android:id="@+id/passswordText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:text="Password"
-                    android:textSize="20sp" />
+                    android:textSize="18sp" />
 
                 <EditText
                     android:id="@+id/password"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="12dp"
+                    android:layout_marginStart="80dp"
                     android:layout_marginTop="4dp"
                     android:ems="10"
                     android:inputType="textPassword" />
@@ -148,12 +148,12 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView11"
+                    android:id="@+id/confirmPasswordText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
                     android:text="Confirm Password"
-                    android:textSize="20sp" />
+                    android:textSize="18sp" />
 
                 <EditText
                     android:id="@+id/confirmPassword"
@@ -166,10 +166,12 @@
             </LinearLayout>
 
             <Button
-                android:layout_width="123dp"
+                android:id="@+id/registerButton"
+                android:layout_width="137dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
+                android:textSize="18sp"
                 android:text="Register" />
 
         </LinearLayout>
@@ -187,11 +189,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
-        android:text="Don't have an account?"
+        android:text="Do you have an account?"
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/loginText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="LOGIN"
